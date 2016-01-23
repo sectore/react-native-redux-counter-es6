@@ -1,6 +1,6 @@
 import React, { Component } from 'react-native';
 import { createStore, applyMiddleware, combineReducers, bindActionCreators } from 'redux';
-import { Provider, connect } from 'react-redux/native';
+import { Provider, connect } from 'react-redux';
 import configureStore from '../store/configureStore';
 import * as CounterActions from '../actions/counter';
 import Counter from '../components/Counter';
@@ -21,7 +21,7 @@ export default class App extends Component {
   render() {
     return (
       <Provider store={configureStore()}>
-        {() => <Connector />}
+        <Connector />
       </Provider>
     );
   }
