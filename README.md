@@ -17,7 +17,7 @@ Error building DependencyGraph: Error: Naming collision detected:
 ./node_modules/react/node_modules/fbjs/lib/warning.js collides with ./node_modules/react-native/node_modules/fbjs/lib/warning.js
     at HasteMap._updateHasteMap (HasteMap.js:132:13)
 ```
-run `npm clean-dependency` and build again. This will remove duplicated
+run `npm run clean-dependency` and build again. This will remove duplicated
 modules of `fbjs`. Thanks to [alin](https://github.com/alinz) for mentioning this
 solution at [Update React Native installation instructions](https://github.com/rackt/react-redux/issues/236)
 
