@@ -1,6 +1,6 @@
 # Redux Counter Example w/ React Native
 
-Back in September 2016 I created this small example to deep into React Native and Redux. It based on the [original Redux Counter example](https://github.com/rackt/redux/tree/master/examples/counter).
+Back in September 2015 I created this small example to deep into React Native and Redux. It based on the [original Redux Counter example](https://github.com/rackt/redux/tree/master/examples/counter).
 
 Today it helps me to check (breaking) changes if a new version of React Native is released every two weeks.
 
